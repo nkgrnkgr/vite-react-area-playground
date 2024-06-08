@@ -7,10 +7,11 @@ import {
   Select as SelectComponent,
   SelectValue,
 } from "react-aria-components";
+import styles from "./Select.module.css";
 
 export function Select() {
   return (
-    <SelectComponent>
+    <SelectComponent className={styles.select}>
       <Label>Favorite Animal</Label>
       <Button>
         <SelectValue />

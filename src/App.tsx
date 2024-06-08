@@ -1,5 +1,5 @@
 import { Counter } from "./components/Counter";
-import { Select } from "./components/Select";
+import { Select } from "./components/Select/Select";
 
 function App() {
   return (
