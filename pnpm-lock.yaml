@@ -31,15 +31,6 @@ devDependencies:
   '@vitejs/plugin-react-swc':
     specifier: ^3.5.0
     version: 3.7.0(vite@5.2.13)
-  eslint:
-    specifier: ^8.57.0
-    version: 8.57.0
-  eslint-plugin-react-hooks:
-    specifier: ^4.6.0
-    version: 4.6.2(eslint@8.57.0)
-  eslint-plugin-react-refresh:
-    specifier: ^0.4.6
-    version: 0.4.7(eslint@8.57.0)
   typescript:
     specifier: ^5.2.2
     version: 5.4.5
@@ -1011,23 +1002,6 @@ packages:
   /escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
-    dev: true
-
-  /eslint-plugin-react-hooks@4.6.2(eslint@8.57.0):
-    resolution: {integrity: sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-    dependencies:
-      eslint: 8.57.0
-    dev: true
-
-  /eslint-plugin-react-refresh@0.4.7(eslint@8.57.0):
-    resolution: {integrity: sha512-yrj+KInFmwuQS2UQcg1SF83ha1tuHC1jMQbRNyuWtlEzzKRDgAl7L4Yp4NlDUZTZNlWvHEzOtJhMi40R7JxcSw==}
-    peerDependencies:
-      eslint: '>=7'
-    dependencies:
-      eslint: 8.57.0
     dev: true
 
   /eslint-scope@7.2.2:
