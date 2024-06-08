@@ -7,7 +7,9 @@ describe("App", () => {
   test("App test", async () => {
     render(<App />);
     const user = userEvent.setup();
-    const button = screen.getByRole("button");
+    const button = screen.getByRole("button", {
+      name: "Increment +",
+    });
     expect(button).toBeInTheDocument();
     const text = screen.getByRole("generic", { name: "count" });
     expect(text).toHaveTextContent("0");

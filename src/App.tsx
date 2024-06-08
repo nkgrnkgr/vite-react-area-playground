@@ -1,20 +1,12 @@
-import { useState } from "react";
+import { Counter } from "./components/Counter";
+import { Select } from "./components/Select";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <div aria-label="count">{count}</div>
+      <Counter />
       <div>
-        <button
-          type="button"
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          Increment +
-        </button>
+        <Select />
       </div>
     </div>
   );
