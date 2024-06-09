@@ -1,0 +1,11 @@
+.button {
+  background-color: aquamarine;
+  font-size: 1rem;
+  color: gray;
+}
+.button:hover {
+  background-color: lightblue;
+}
+.button:active {
+  background-color: lightcoral;
+}
